@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trang chủ</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="fonts/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="js/zoominout/bannerscollection_zoominout.css" type="text/css"/>
+</head>
+<style>
+    .playOver {
+        display: none;
+    }
+</style>
+<body>
+<nav class="navbar navbar-default" id="navbar-top-menu">
+    <div class="navbar-bg">
+        <div class="bg-tra"></div>
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">&nbsp;</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="./index.html"><img class="logo" src="./img/logo.png"/></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="main-menu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="menu-active" href="./index.html" class="">TRANG CHỦ</a></li>
+                    <li class="dropdown">
+                        <a href="./about/index.html">GIỚI THIỆU</a>
+                        <ul class="dropdown-menu">
+                            <li style="width: 300px"><a href="./about/lich-su-phat-trien.html"><span class="menu_square"></span>Lịch sử hình thành & phát triển</a></li>
+                            <li><a href="./about/su-menh-tam-nhin.html"><span class="menu_square"></span>Sứ mệnh tầm nhìn</a></li>
+                            <li><a href="./about/bo-may-to-chuc.html"><span class="menu_square"></span>Bộ máy tổ chức</a></li>
+                            <li><a href="./about/cong-ty-thanh-vien.html"><span class="menu_square"></span>Công ty thành viên</a></li>
+                            <li><a href="./about/doi-tac.html"><span class="menu_square"></span>Đối tác - Bạn hàng</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="./investors/index.html">LĨNH VỰC KINH DOANH</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                <a href="./investors/list_xangdau.html"><span class="menu_square"></span>Xăng dầu<i class="fa fa-angle-right"></i></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="./investors/index.html">Kinh doanh xăng dầu</a></li>
+                                    <li><a href="./investors/index.html">Kinh doanh dầu mỡ nhờn</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="./investors/list_bds.html"><span class="menu_square"></span>Bất động sản</a></li>
+                            <li><a href="./investors/list_dvbl.html"><span class="menu_square"></span>Dịch vụ bán lẻ</a></li>
+                            <li><a href="./investors/list_lvk.html"><span class="menu_square"></span>Lĩnh vực khác</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="./news/index.html">TIN TỨC</a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li class="dropdown-submenu">
+                                <a href="./news/list_ttt.html"><span class="menu_square"></span>TIN THỊ TRƯỜNG<i class="fa fa-angle-right"></i></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="./news/list_ttt_ttxd.html">Thị trường xăng dầu</a></li>
+                                    <li><a href="./news/list.html">Thị trường BDS</a></li>
+                                    <li><a href="./news/list.html">Thị trường bán lẻ</a></li>
+                                    <li><a href="./news/list.html">Tin thị trường liên quan</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a href="../news/list_tnb.html"><span class="menu_square"></span>TIN NỘI BỘ<i class="fa fa-angle-right"></i></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="./news/list.html">Tin hoạt động XDKD</a></li>
+                                    <li><a href="./news/list.html">Tin phong trào tập thể</a></li>
+                                    <li><a href="./news/list.html">Tin cho cổ đông</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a href="./news/tin-tuyen-dung.html"><span class="menu_square"></span>TIN TUYỂN DỤNG<i class="fa fa-angle-right"></i></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="./news/list.html">Quy trình tuyển dụng</a></li>
+                                    <li><a href="./news/list.html">Môi trường làm việc</a></li>
+                                    <li><a href="./news/list.html">Tuyển dụng mới</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../news/list_tvd.html"><span class="menu_square"></span>TIN VIDEO</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./contact/index.html">LIÊN HỆ</a></li>
+                    <li class="menu-search">
+                        <i class="fa fa-search search-btn"></i>
+                        <div class="search-box">
+                            <form action="./search.html">
+                                <div class="input-group input-group-sm">
+                                    <input type="text" placeholder="Tìm kiếm" class="form-control">
+                                    <div class="input-group-btn">
+                                        <button class="btn btn-mipec hvr-sweep-to-bottom" type="submit">Tìm kiếm</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </li>
+                    <li class="menu-lang">
+                        <img src="img/us.gif"/>
+                        <img src="img/vn.gif"/>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<section class="slider">
+    <div class="bannerscollection_zoominout_list" role="listbox">
+        <ul>
+            <li class="item active" data-bottom-thumb="images/slides/truso.jpg">
+                <img src="images/slides/truso.jpg" style="width: 1400px; height:600px;" alt="...">
+            </li>
+            <li class="item" data-bottom-thumb="images/slides/bds.jpg">
+                <img src="images/slides/bds.jpg" style="width: 1400px; height:600px;" alt="...">
+            </li>
+            <li class="item" data-bottom-thumb="images/slides/hoadau.jpg">
+                <img src="images/slides/hoadau.jpg" style="width: 1400px; height:600px;" alt="...">
+            </li>
+            <li class="item" data-bottom-thumb="images/slides/nhahang.jpg">
+                <img src="images/slides/nhahang.jpg" style="width: 1400px; height:600px;" alt="...">
+            </li>
+            <li class="item" data-bottom-thumb="images/slides/golf.jpg">
+                <img src="images/slides/golf.jpg" style="width: 1400px; height:600px;" alt="...">
+            </li>
+        </ul>
+    </div>
+</section>
+
+
+<section class="business">
+    <div class="container">
+        <div class="header">
+            <h3 class="head-title">Lĩnh vực kinh doanh</h3>
+            <div class="text-center">Mong muốn của MIPEC là đem đến cho thị trường những sản phẩm – dịch vụ theo tiêu chuẩn quốc tế.</div>
+        </div>
+
+        <div class="row animation-element">
+            <div class="col-lg-4 col-md-4 col-xs-12 left_to_right">
+                <div class="block-title bottom-15 text-center">Xăng dầu</div>
+
+                <div class="img zoom-preview">
+                    <img src="images/locations/l1.png">
+                    <a href="./investors/list_xangdau.html">
+                        <div class="mask">
+                            <i class="glyphicon glyphicon-share"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12 bottom_to_top">
+                <div class="img zoom-preview">
+                    <img src="images/locations/l2.jpg">
+                    <a href="./investors/list_bds.html">
+                        <div class="mask">
+                            <i class="glyphicon glyphicon-share"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="block-title top-15 text-center">Bất động sản</div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12 right_to_left">
+                <div class="block-title bottom-15 text-center">Dịch vụ bán lẻ</div>
+                <div class="img zoom-preview">
+                    <img src="images/locations/l3.jpg">
+                    <a href="./investors/list_dvbl.html">
+                        <div class="mask">
+                            <i class="glyphicon glyphicon-share"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom"><a href="investors/index.html" class="btn readmore  hvr-sweep-to-bottom">Xem Thêm</a></div>
+    </div>
+</section>
+
+<section class="typical">
+    <div class="container">
+        <div class="header">
+            <h3 class="head-title">Dự án tiêu biểu</h3>
+            <div class="text-center">Tìm hiểu về những dự án điển hình của MIPEC.</div>
+        </div>
+
+        <div class="row animation-element">
+            <div class="col-lg-4 col-md-4 col-xs-12 left_to_right">
+                <div class="img zoom-preview">
+                    <a href="#"><img src="images/projects/p1.png"></a>
+                    <div class="bottom">
+                        <div class="head-content-hr"></div>
+                        <h2>Mipec Hotel Nha Trang</h2>
+                    </div>
+                    <a href="./investors/detail_nhatrang.html">
+                        <div class="mask">
+                            <i class="glyphicon glyphicon-share"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="img zoom-preview">
+                    <img src="images/projects/p2.png">
+                    <div class="bottom">
+                        <div class="head-content-hr"></div>
+                        <h2>MIPEC RIVERSIDE</h2>
+                    </div>
+                    <a href="./investors/detail_riverside.html">
+                        <div class="mask">
+                            <i class="glyphicon glyphicon-share"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12 right_to_left">
+                <div class="img zoom-preview">
+                    <img src="images/projects/p3.png">
+                    <div class="bottom">
+                        <div class="head-content-hr"></div>
+                        <h2>MIPEC GOLF</h2>
+                    </div>
+                    <a href="./investors/detail_golf.html">
+                        <div class="mask">
+                            <i class="glyphicon glyphicon-share"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom"><a href="investors/index.html" class="btn readmore hvr-sweep-to-bottom">Xem Thêm</a></div>
+    </div>
+</section>
+
+<section class="news">
+    <div class="container">
+        <div class="header">
+            <h3 class="head-title">TIN TỨC</h3>
+            <div class="text-center">Cập nhật những thông tin mới nhất về MIPEC, thị trường xăng dầu, bất động sản, ...</div>
+            <div class="text-center row news-tabs">
+                <div class="col-xs-6 col-lg-3 no-padding news-tab">
+                    <a href="./news/list_ttt.html">
+                        <div class="icon_news">
+                            <div class="icons icon_ttt"></div>
+                        </div>
+                        TIN THỊ TRƯỜNG
+                    </a>
+                </div>
+                <div class="col-xs-6 col-lg-3 no-padding news-tab">
+                    <a href="./news/list_tnb.html">
+                        <div class="icon_news">
+                            <div class="icons icon_tnb"></div>
+                        </div>
+                        TIN NỘI BỘ
+                    </a>
+                </div>
+                <div class="col-xs-6 col-lg-3 no-padding news-tab">
+                    <a href="./news/tin-tuyen-dung.html">
+                        <div class="icon_news">
+                            <div class="icons icon_ttd"></div>
+                        </div>
+                        TIN TUYỂN DỤNG
+                    </a>
+                </div>
+                <div class="col-xs-6 col-lg-3 no-padding news-tab">
+                    <a href="./news/list_tvd.html">
+                        <div class="icon_news">
+                            <div class="icons icon_tv"></div>
+                        </div>
+                        TIN VIDEO
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="img">
+                    <a href="news/detail.html">
+                        <img src="images/news/n1.png">
+                        <div class="bottom">
+                            <div class="news-date">31/11/2015</div>
+                            <p>Lễ kỉ niệm 12 năm thành lập công ty cổ phần hóa dầu Quân Đội.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="img">
+                    <a href="news/detail.html">
+                        <img src="images/news/n2.png">
+                        <div class="bottom">
+                            <div class="news-date">18/11/2015</div>
+                            <p>Công ty cp hóa dầu quân đội điều chỉnh giá xăng dầu từ 15 giờ chiều nay.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12 no-padding-left">
+                <h4>GIÁ XĂNG DẦU BÁN LẺ</h4>
+                <div class="table-oil">
+                    <table class="table">
+                        <tbody>
+                        <tr>
+                            <th>SẢN PHẨM</th>
+                            <th class="text-center">VÙNG 1</th>
+                            <th class="text-center">VÙNG 2</th>
+                        </tr>
+                        <tr>
+                            <td>Xăng RON 95</td>
+                            <td class="text-center">16.730</td>
+                            <td class="text-center">17.060</td>
+                        </tr>
+                        <tr>
+                            <td>Xăng RON 92</td>
+                            <td class="text-center">16.030</td>
+                            <td class="text-center">16.350</td>
+                        </tr>
+                        <tr>
+                            <td>DO 0,05S</td>
+                            <td class="text-center">11.110</td>
+                            <td class="text-center">11.330</td>
+                        </tr>
+                        <tr>
+                            <td>DO 0,25S</td>
+                            <td class="text-center">11.060</td>
+                            <td class="text-center">11.280</td>
+                        </tr>
+                        <tr>
+                            <td>Dầu hỏa</td>
+                            <td class="text-center">10.270</td>
+                            <td class="text-center">10.470</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="partners">
+    <div class="container">
+        <div class="slide">
+            <div class="next"><i class="glyphicon glyphicon-chevron-left"></i></div>
+            <div class="prev"><i class="glyphicon glyphicon-chevron-right"></i></div>
+            <ul id="carousel">
+                <li><img class="img-responsive" src="images/logos/mipeclongbien.png"/></li>
+                <li><img class="img-responsive" src="images/logos/mipectower.png"/></li>
+                <li><img class="img-responsive" src="images/logos/mipec.png"/></li>
+                <li><img class="img-responsive" src="images/logos/mipecpetro.png"/></li>
+                <li><img class="img-responsive" src="images/logos/mipeclongbien.png"/></li>
+                <li><img class="img-responsive" src="images/logos/mipectower.png"/></li>
+                <li><img class="img-responsive" src="images/logos/mipec.png"/></li>
+                <li><img class="img-responsive" src="images/logos/mipecpetro.png"/></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="header">
+        <div class="container" style="position: relative">
+            <h3>Tin Nhanh</h3>
+
+            <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();" scrolldelay="150">
+                <a href="./news/detail_dieuchinhgia.html">Công ty Cổ phần hóa dầu Quân đội điều chỉnh giá xăng dầu từ 15 giờ 00 ngày 04.01.2016</a>,
+                <a href="./news/detail_dieuchinhgia.html">Công ty Cổ phần hóa dầu Quân đội điều chỉnh giá xăng dầu từ 15 giờ 00 ngày 18.12.2015</a>
+            </marquee>
+        </div>
+    </div>
+    <div class="content">
+        <div class="container">
+            <ul class="nav navbar-nav ">
+                <li><a class="menu-active" href="../index.html">TRANG CHỦ</a></li>
+                <li><a href="../about/index.html">GIỚI THIỆU</a></li>
+                <li><a href="../investors/index.html">LĨNH VỰC KINH DOANH</a></li>
+                <li><a href="../news/index.html">TIN TỨC</a></li>
+                <li><a href="../contact/index.html">LIÊN HỆ</a></li>
+                <li><a href="http://data.mipec.vn/" target="_blank">MIPEC DATA</a></li>
+                <li><a href="https://mail.mipec.com.vn/" target="_blank">WEBMAIL</a></li>
+            </ul>
+
+            <div class="info">
+                <div class="col-xs-12 text-center">
+                    <div class="footer_company">CÔNG TY CỔ PHẦN HÓA DẦU QUÂN ĐỘI</div>
+                    <p>Trụ sở chính: N1 33B Phạm Ngũ Lão - Phường Phan Chu Trinh - Quận Hoàn Kiếm - Hà Nội</p>
+                    <p>Điện Thoại: 04.37342501 - 04.37342912 | Fax: 04.37342520</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="bottom">
+        <p>© 2015 Copyright <a href="">mipec.com.vn</a>. All right Reserved</p>
+    </div>
+</footer>
+<div id="top-link-block" class="hidden" onclick="$('html,body').animate({scrollTop:0}, 200);return false;"><i class="fa fa-angle-up"></i></div>
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type='text/javascript' src='js/jquery-ui.min.js'></script>
+<script type='text/javascript' src='js/jquery.ui.touch-punch.min.js'></script>
+<script type='text/javascript' src='js/zoominout/bannerscollection_zoominout.js'></script>
+<script type="text/javascript" language="javascript" src="js/carouFredSel/jquery.carouFredSel-6.2.1-packed.js"></script>
+
+<!-- optionally include helper plugins -->
+<script type="text/javascript" language="javascript" src="js/carouFredSel/helper-plugins/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/carouFredSel/helper-plugins/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/carouFredSel/helper-plugins/jquery.transit.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/carouFredSel/helper-plugins/jquery.ba-throttle-debounce.min.js"></script>
+<script src="js/app.js"></script>
+<script>
+    jQuery(function() {
+        jQuery('.bannerscollection_zoominout_list').bannerscollection_zoominout({
+            autoPlay:5,
+            skin: 'opportune',
+            responsive:true,
+            width100Proc:false,
+            height100Proc:false,
+            scrollSlideDuration:1,
+            fadeSlides:true, //for fade
+            circleRadius:8,
+            circleLineWidth:4,
+            initialZoom: 1,
+            finalZoom: 1.1,
+            circleColor: "#ffffff", //849ef3
+            circleAlpha: 50,
+            behindCircleColor: "#000000",
+            behindCircleAlpha: 20,
+            thumbsWrapperMarginTop:5,
+            scrollSlideEasing:'easeOutQuad',
+            duration: 10
+        });
+    });
+</script>
+</body>
+</html>

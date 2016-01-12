@@ -1,0 +1,3540 @@
+@import url('http://fonts.googleapis.com/css?family=Dosis:400,600,700');
+@import url('http://fonts.googleapis.com/css?family=Cuprum:400,700');
+@import url('http://fonts.googleapis.com/css?family=Droid+Sans:400,700');
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline
+}
+
+html {
+    line-height: 1
+}
+
+ol, ul {
+    list-style: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle
+}
+
+q, blockquote {
+    quotes: none
+}
+
+q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none
+}
+
+a img {
+    border: none
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+    display: block
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+.clearfix:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden
+}
+
+.ir {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left
+}
+
+.ir-input {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    line-height: 0
+}
+
+.blank {
+    background: url('http://static.zippergaleria.com.br/static/images/global/blank.gif?1372856462') repeat 0 0 !important
+}
+
+.expand {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%
+}
+
+.grid-width {
+    width: 960px;
+    margin: 0 auto
+}
+
+.blog-grid {
+    width: 934px;
+    margin: 0 auto
+}
+
+.full-width {
+    width: 100%
+}
+
+.full-height {
+    height: 100%
+}
+
+.cursor {
+    cursor: pointer
+}
+
+textarea, input[type="search"], input[type="submit"], input[type="text"] {
+    font-family: 'Cuprum', sans-serif;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    background: transparent;
+    border: 0
+}
+
+input[type="submit"] {
+    cursor: pointer
+}
+
+input[type="text"] {
+    outline: 0;
+    padding: 0
+}
+
+textarea {
+    resize: none;
+    outline: none;
+    overflow: auto
+}
+
+button {
+    border: 0;
+    cursor: pointer
+}
+
+a {
+    text-decoration: none;
+    outline: 0
+}
+
+p {
+    margin: 0;
+    padding: 0
+}
+
+b, strong {
+    font-weight: bold
+}
+
+i, em {
+    font-style: italic
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    font-size: 10px;
+    width: 100%;
+    height: 100%
+}
+
+body.state-loading.mobile {
+    overflow: hidden
+}
+
+.main-loading {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #edede9;
+    z-index: 100
+}
+
+.main-loading .loading-container, .main-loading .loading-fill, .main-loading .loading-mask {
+    width: 420px;
+    height: 168px;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.main-loading .loading-wait {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 85px;
+    width: 100%;
+    font-size: 1.6em;
+    color: #666;
+    font-family: Arial
+}
+
+.main-loading .loading-container {
+    left: 50%;
+    top: 50%;
+    margin: -91px 0 0 -210px;
+    overflow: hidden
+}
+
+.main-loading .loading-fill {
+    background-color: #7fbcc6;
+    width: 0
+}
+
+.main-header {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 13px;
+    background: #171717
+}
+
+.main-header .bg-image {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: none
+}
+
+.main-header .scrolldown {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-image: url('http://static.zippergaleria.com.br/static/images/global/scrolldown.png?1372856462');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 121px;
+    height: 45px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    margin-top: -22.5px;
+    margin-left: -60.5px
+}
+
+.nav-content-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 5;
+    height: 65px;
+    left: 0;
+    top: 44px
+}
+
+body.menu-fixed .nav-content-wrapper {
+    position: fixed;
+    top: 0
+}
+
+.nav-content {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 65px;
+    margin-left: -585px
+}
+
+body.menu-fixed .nav-content {
+    top: 0
+}
+
+.nav-content .bg-nav {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -960px;
+    background: #171717;
+    height: 65px;
+    width: 1920px
+}
+
+.nav-content .logo {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-image: url('http://static.zippergaleria.com.br/static/images/global/logo_zipper.png?1372856462');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 135px;
+    height: 48px;
+    display: none;
+    position: absolute;
+    left: 46px;
+    top: 5px
+}
+
+.main-nav {
+    position: absolute;
+    right: 40px;
+    top: 20px
+}
+
+.main-nav .border {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    left: 0;
+    bottom: 1px;
+    border-bottom: 1px solid #434343
+}
+
+.main-nav .ball {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-image: url('http://static.zippergaleria.com.br/static/images/global/nav_ball.png?1372856462');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 8px;
+    height: 8px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 1px
+}
+
+.main-nav .ball_small {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-image: url('http://static.zippergaleria.com.br/static/images/global/nav_ball_small.png?1372856462');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    top: 3px
+}
+
+.main-nav .ball_left {
+    left: 0
+}
+
+.main-nav .ball_right {
+    right: 0
+}
+
+.main-nav ul {
+    position: relative
+}
+
+.main-nav li {
+    float: left;
+    width: 100px;
+    text-align: center;
+    background: url('http://static.zippergaleria.com.br/static/images/global/bg_item_nav.png?1372856462') no-repeat center bottom;
+    padding-bottom: 16px;
+    text-transform: uppercase
+}
+
+.main-nav li.it-exposicao {
+    width: 125px;
+    margin-right: 10px
+}
+
+.main-nav li.it-lang {
+    width: 60px
+}
+
+.main-nav a {
+    color: #a7a7a7;
+    font-size: 1.8em;
+    -webkit-transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+    -webkit-transition-delay: 0ms;
+    -moz-transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms;
+    -o-transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms;
+    transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms
+}
+
+.main-nav a:hover {
+    color: #eaeaea
+}
+
+.main-nav li.active a {
+    color: #eaeaea
+}
+
+.exposicao-content {
+    margin-bottom: 12px;
+    position: relative
+}
+
+.exposicao {
+    position: absolute;
+    height: 549px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    background: #fff;
+    z-index: 3
+}
+
+.exposicao.cursor {
+    z-index: 1
+}
+
+body.mobile .exposicao {
+    -webkit-overflow-scrolling: touch
+}
+
+.exposicao.first {
+    top: 0
+}
+
+.exposicao.last {
+    bottom: 0;
+    margin-bottom: 0
+}
+
+.exposicao .banners-exposicao {
+    width: 100%;
+    overflow: hidden;
+    position: relative
+}
+
+.exposicao .banners-exposicao .wrap-info-place {
+    width: 100%;
+    height: 100%;
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/overlay_form.png?1390851528') repeat;
+    position: relative;
+    z-index: 105 !important;
+    overflow: hidden;
+    display: none
+}
+
+.exposicao .banners-exposicao .wrap-info-place .info-place {
+    width: 100%;
+    height: 321.5px;
+    padding: 27px 0;
+    background: #2b2b2b;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    margin-top: -138.5px;
+    z-index: 11
+}
+
+.exposicao .banners-exposicao .wrap-info-place .info-place .close-info-place {
+    width: 29px;
+    height: 29px;
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/btn_close_place.png?1390851528') no-repeat;
+    display: block;
+    margin: 0 auto
+}
+
+.exposicao .banners-exposicao .wrap-info-place .info-place .close-info-place:hover {
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/btn_close_place_hover.png?1390851528')
+}
+
+.exposicao .banners-exposicao .wrap-info-place .info-place .text {
+    width: 845px;
+    margin: 0 auto;
+    padding-top: 35px
+}
+
+.exposicao .banners-exposicao .wrap-info-place .info-place .text p {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    line-height: 18px;
+    padding-bottom: 22px
+}
+
+.exposicao .banners-exposicao .wrap-info-place .info-place .text p:last-child {
+    padding-bottom: 0 !important
+}
+
+.exposicao .bg-exposicao {
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.exposicao-info {
+    font-size: 10px;
+    position: absolute;
+    top: 0;
+    right: -900px;
+    text-transform: uppercase;
+    width: 98em;
+    height: auto
+}
+
+.exposicao-info .title {
+    position: relative;
+    padding: 1.4em 0 1.4em 2.7em
+}
+
+.exposicao-info .title-1 {
+    font-size: 3em;
+    line-height: 1em;
+    font-family: 'Cuprum', sans-serif
+}
+
+.exposicao-info .title-2 {
+    font-size: 6em;
+    line-height: 1em;
+    margin-right: 4em
+}
+
+.exposicao-info .date {
+    font-size: 2.4em;
+    line-height: 1em
+}
+
+.exposicao-info .title-3 {
+    font-size: 3.6em;
+    line-height: 1.5em;
+    padding-left: .75em
+}
+
+.exposicao-info img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%
+}
+
+.exposicao-info .link-perfil {
+    position: absolute;
+    right: .5em;
+    color: #565656;
+    top: 114px;
+    z-index: 1;
+    font-size: 3.6em;
+    line-height: 1.5em;
+    display: none
+}
+
+@media screen and (min-width: 1728px) {
+    .exposicao-info .link-perfil {
+        top: 130px
+    }
+}
+
+.exposicao-info .descrition-local {
+    font-family: 'Dosis', sans-serif;
+    font-size: 3em;
+    color: #565656;
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/bg_btn_exp.jpg?1390851528');
+    padding: 11px 13px;
+    display: inline-block;
+    z-index: 10;
+    position: relative;
+    visibility: hidden
+}
+
+.exposicao-info .social-icons {
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.exposicao-info .social-icons .label-clip {
+    position: absolute;
+    left: 6px;
+    top: 9px;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    -webkit-transition: width 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+    -webkit-transition-delay: 0ms;
+    -moz-transition: width 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms;
+    -o-transition: width 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms;
+    transition: width 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms
+}
+
+.exposicao-info .social-icons .label {
+    font-size: 11px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 20px;
+    background: #8a8a89;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+    padding: 0 16px 0 46px;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.exposicao-info .social-icons ul {
+    position: relative
+}
+
+.exposicao-info .social-icons li {
+    margin-bottom: 5px;
+    position: relative
+}
+
+.exposicao-info .social-icons li:hover .label-clip {
+    width: 117px
+}
+
+.exposicao-info .social-icons .social-button {
+    width: 41px;
+    height: 40px
+}
+
+.exposicao-info .social-icons .social-button a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/social_icons.png?1372856462') no-repeat 0 0;
+    position: relative
+}
+
+.exposicao-info .social-icons .social-button.facebook a {
+    background-position: left top
+}
+
+.exposicao-info .social-icons .social-button.twitter a {
+    background-position: left bottom
+}
+
+.exposicao-info.theme-1 .title {
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/bg_title_theme_1.png?1372856462') repeat 0 0
+}
+
+.exposicao-info.theme-1 .title-1 {
+    color: #d0edde
+}
+
+.exposicao-info.theme-1 .title-2 {
+    color: #f5f7f6
+}
+
+.exposicao-info.theme-1 .title-3 {
+    color: #565656;
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/bg_title_3_theme_1.png?1372856462') repeat 0 0;
+    margin-bottom: .2em;
+    padding-right: 165px
+}
+
+.exposicao-info.theme-1 .date {
+    color: #d0edde
+}
+
+.exposicao-info.theme-2 .title {
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/bg_title_theme_2.png?1372856462') repeat 0 0
+}
+
+.exposicao-info.theme-2 .title-1 {
+    color: #dadcbe
+}
+
+.exposicao-info.theme-2 .title-2 {
+    color: #f5f7f6
+}
+
+.exposicao-info.theme-2 .title-3 {
+    color: #565656;
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/bg_title_3_theme_2.png?1372856462') repeat 0 0
+}
+
+.exposicao-info.theme-2 .date {
+    color: #dadcbe
+}
+
+.nav-buttons {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 101;
+    display: none
+}
+
+.nav-buttons li {
+    position: relative;
+    margin-bottom: 1px;
+    height: 6.1em
+}
+
+.nav-buttons li button, .nav-buttons li a {
+    display: block;
+    width: 6.1em;
+    height: 100%;
+    background-color: #2b2b2b;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #E2E2E2;
+    border-right: 0
+}
+
+.nav-buttons li button:hover, .nav-buttons li a:hover {
+    background-color: #2b2b2b
+}
+
+.nav-buttons li:hover .label {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1
+}
+
+.nav-buttons li .label {
+    position: absolute;
+    z-index: 2;
+    background: #fff;
+    color: #565656;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    text-align: center;
+    top: 0;
+    right: 3.3em;
+    line-height: 3.3em;
+    width: 8.5em;
+    height: 100%;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transition: opacity 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+    -webkit-transition-delay: 0ms;
+    -moz-transition: opacity 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms;
+    -o-transition: opacity 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms;
+    transition: opacity 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms;
+    border: 1px solid #E2E2E2;
+    border-right: 0
+}
+
+html[lang="en"] .nav-buttons li .label {
+    width: 10.5em
+}
+
+.nav-buttons li.close-button-exposicao a {
+    background-image: url('http://static.zippergaleria.com.br/static/images/exposicoes/close_button.png?1372856462');
+    border-color: #2B2B2B
+}
+
+.nav-buttons li.close-button-exposicao a:hover {
+    background-color: #7FBCC6;
+    border-color: #7FBCC6
+}
+
+.nav-buttons li.prev-button a {
+    background-color: #fff;
+    background-image: url('http://static.zippergaleria.com.br/static/images/exposicoes/nav_buttons_prev.png?1372856462');
+    background-position: center center;
+    background-repeat: no-repeat
+}
+
+.nav-buttons li.next-button a {
+    background-color: #fff;
+    background-image: url('http://static.zippergaleria.com.br/static/images/exposicoes/nav_buttons_next.png?1372856462');
+    background-position: center center;
+    background-repeat: no-repeat
+}
+
+.fake-content {
+    font-size: 2em
+}
+
+.fake-content p {
+    padding-bottom: 10px;
+    line-height: 1em
+}
+
+.extra-content {
+    position: relative;
+    z-index: 1;
+    width: 100%
+}
+
+.exposicao-sobre {
+    width: 100%;
+    height: 805px;
+    position: relative
+}
+
+.exposicao-sobre .wrapper {
+    position: relative
+}
+
+.exposicao-sobre .bg-image-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+
+.exposicao-sobre .bg-image {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -960px
+}
+
+.exposicao-sobre .tabs-nav {
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.exposicao-sobre .tabs-nav li {
+    float: left;
+    text-transform: uppercase;
+    margin-left: 1px
+}
+
+.exposicao-sobre .tabs-nav li a {
+    font-size: 3.6em;
+    color: #fff;
+    line-height: 1.6em;
+    background: #7fbcc6;
+    text-align: center;
+    padding: 0 25px;
+    display: block
+}
+
+.exposicao-sobre .tabs-nav li:hover a, .exposicao-sobre .tabs-nav li.active a {
+    color: #7fbcc6;
+    background: #f5f7f6
+}
+
+.exposicao-sobre .tabs-info {
+    width: 63em;
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.exposicao-sobre .tabs-info .tab {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #f5f7f6;
+    width: 100%
+}
+
+.exposicao-sobre .tabs-info .scroll {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch
+}
+
+.exposicao-sobre .tabs-info .tab-sobre {
+    display: none;
+    padding: 45px 0
+}
+
+.exposicao-sobre .tabs-info .tab-sobre .text {
+    padding: 0 45px
+}
+
+.exposicao-sobre .tabs-info .tab-sobre .text p {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    padding-bottom: 20px;
+    color: #595959;
+    text-align: justify
+}
+
+.exposicao-sobre .tabs-info .tab-sobre .text p a {
+    color: #7FBCC6
+}
+
+.exposicao-sobre .tabs-info .tab-sobre .text-nav {
+    display: inline-block
+}
+
+.exposicao-sobre .tabs-info .tab-sobre .text-nav .text-nav-item {
+    float: left;
+    width: 18px;
+    hidden: 18px
+}
+
+.exposicao-sobre .tabs-info .tab-artistas {
+    display: none
+}
+
+.exposicao-sobre .tabs-info .tab-artistas .tab-content {
+    padding: 25px 20px
+}
+
+.exposicao-sobre .tabs-info .tab-artistas .title {
+    color: #686868;
+    font-size: 3.6em;
+    background: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: .7em 0;
+    margin-bottom: 5px
+}
+
+.exposicao-sobre .tabs-info .tab-artistas .nav-list-artistas .nav-item-artista {
+    position: relative;
+    background: #fff;
+    margin-bottom: 5px
+}
+
+.exposicao-sobre .tabs-info .tab-artistas .nav-list-artistas .nav-item-artista img {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0
+}
+
+.exposicao-sobre .tabs-info .tab-artistas .nav-list-artistas .nav-item-artista .info {
+    float: left;
+    text-transform: uppercase;
+    padding: 0 3em 0 13em;
+    min-height: 10em
+}
+
+.exposicao-sobre .tabs-info .tab-artistas .nav-list-artistas .nav-item-artista .info h4 {
+    font-size: 2.5em;
+    color: #7fbcc6;
+    padding-top: .5em
+}
+
+.exposicao-sobre .tabs-info .tab-artistas .nav-list-artistas .nav-item-artista .info p {
+    color: #6a6a6a;
+    font-size: 1.6em;
+    padding-bottom: .8em
+}
+
+.exposicao-sobre .tabs-info .tab-downloads {
+    display: none
+}
+
+.exposicao-sobre .tabs-info .tab-downloads .tab-content {
+    padding: 25px 20px
+}
+
+.exposicao-sobre .tabs-info .tab-downloads .title {
+    color: #686868;
+    font-size: 3.6em;
+    background: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: .7em 0;
+    margin-bottom: 5px
+}
+
+.exposicao-sobre .tabs-info .tab-downloads .nav-list-downloads .nav-item-downloads {
+    position: relative;
+    background: #fff;
+    margin-bottom: 5px
+}
+
+.exposicao-sobre .tabs-info .tab-downloads .nav-list-downloads .nav-item-downloads img {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0
+}
+
+.exposicao-sobre .tabs-info .tab-downloads .nav-list-downloads .nav-item-downloads .info {
+    float: left;
+    text-transform: uppercase;
+    padding: 2em 10em 0;
+    min-height: 9em;
+    min-height: 6em
+}
+
+.exposicao-sobre .tabs-info .tab-downloads .nav-list-downloads .nav-item-downloads .info h4 {
+    font-size: 2.5em;
+    color: #7fbcc6
+}
+
+.exposicao-sobre .tabs-info .tab-downloads .nav-list-downloads .nav-item-downloads .info p {
+    color: #6a6a6a;
+    font-size: 1.6em
+}
+
+.exposicao-sobre .tabs-info .tab-downloads .nav-list-downloads .nav-item-downloads .info a {
+    color: #6a6a6a
+}
+
+.list-obras ul {
+    background-color: #FFF
+}
+
+.list-obras .title {
+    background-color: white
+}
+
+.list-obras .title h3 {
+    font-size: 3.6em;
+    color: #7fbcc6;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 1.1em 0 .4em .7em
+}
+
+.list-obras .title p {
+    color: #7f7f7f;
+    font-size: 1.4em;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 2em;
+    line-height: 1.2em
+}
+
+.list-obras .title p a {
+    display: block;
+    color: #7f7f7f
+}
+
+.list-obras .item-obra {
+    float: left;
+    position: relative;
+    overflow: hidden;
+    width: 10%;
+    cursor: pointer
+}
+
+.list-obras .item-obra.title {
+    cursor: default
+}
+
+.list-obras .item-obra a {
+    display: block;
+    padding-left: 12px;
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/bg_nav_obras_gray.png?1372856462') no-repeat left center
+}
+
+.list-obras .item-obra a.active {
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/bg_nav_obras.png?1372856462') no-repeat left center;
+    font-size: 1.2em
+}
+
+.list-obras .item-obra p a:hover {
+    color: #FDD16C
+}
+
+.list-obras .item-obra img {
+    display: block;
+    width: 102%;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+    opacity: .5;
+    -webkit-transition: opacity 400ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+    -webkit-transition-delay: 0ms;
+    -moz-transition: opacity 400ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms;
+    -o-transition: opacity 400ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms;
+    transition: opacity 400ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms
+}
+
+.list-obras .item-obra .zoom {
+    width: 38px;
+    height: 38px;
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/icons_zoom.png?1372856462') no-repeat 0 0;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 130%;
+    margin: -19px 0 0 -19px;
+    -webkit-transition: top 400ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+    -webkit-transition-delay: 0ms;
+    -moz-transition: top 400ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms;
+    -o-transition: top 400ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms;
+    transition: top 400ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms
+}
+
+.list-obras .item-obra.item-video .zoom {
+    background-position: left top
+}
+
+.list-obras .item-obra.item-photo .zoom {
+    background-position: right top
+}
+
+.list-obras .item-obra:hover img {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1
+}
+
+.list-obras .item-obra:hover .zoom {
+    top: 50%
+}
+
+.exposicoes-anteriores {
+    font-size: 10px;
+    z-index: 102;
+    position: fixed;
+    width: 100%;
+    height: 38.7em;
+    visibility: hidden;
+    left: 0;
+    top: -40em;
+    background: #fff;
+    border-bottom: 4px solid #fff;
+    margin-top: -4px
+}
+
+.exposicoes-anteriores button {
+    font-size: inherit
+}
+
+.exposicoes-anteriores .open-close-button {
+    color: #a4a4a4;
+    font-size: 2.4em;
+    background: #fff;
+    width: 110px;
+    line-height: 1em;
+    padding: 1.0em 0 .3em;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -55px;
+    bottom: 0;
+    text-transform: uppercase;
+    border: 1px solid #E2E2E2;
+    border-top: 0
+}
+
+html[lang="en"] .exposicoes-anteriores .open-close-button {
+    width: 130px;
+    margin-left: -65px
+}
+
+.exposicoes-anteriores .open-close-button .arrow {
+    display: block;
+    width: 16px;
+    height: 11px;
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/arrow_exposicoes.png?1372856462') no-repeat right top;
+    position: absolute;
+    left: 50%;
+    top: 6px;
+    margin-left: -8px
+}
+
+.exposicoes-anteriores .open-close-button.active .arrow {
+    background-position: left top
+}
+
+.exposicoes-anteriores .nav-button {
+    width: 15em;
+    height: 38.7em;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 2
+}
+
+.exposicoes-anteriores .nav-button.prev {
+    left: 0;
+    background-image: url('http://static.zippergaleria.com.br/static/images/exposicoes/bg_nav_left.png?1372856462')
+}
+
+.exposicoes-anteriores .nav-button.next {
+    right: 0;
+    background-image: url('http://static.zippergaleria.com.br/static/images/exposicoes/bg_nav_right.png?1372856462')
+}
+
+.exposicoes-anteriores .slide-wrapper {
+    width: 100%;
+    height: 38.7em;
+    overflow: hidden;
+    position: relative
+}
+
+.exposicoes-anteriores .list-clip {
+    position: absolute;
+    top: 0;
+    left: 15em;
+    width: 100%;
+    height: 38.7em;
+    overflow: hidden
+}
+
+body.mobile .exposicoes-anteriores .list-clip {
+    overflow-y: hidden;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch
+}
+
+.exposicoes-anteriores .list {
+    position: relative;
+    width: 9000px
+}
+
+.exposicoes-anteriores .item {
+    width: 22em;
+    height: 38.7em;
+    background: #ccc;
+    margin-right: 1px;
+    float: left;
+    overflow: hidden;
+    position: relative
+}
+
+.exposicoes-anteriores .item:hover .title-wrapper, .exposicoes-anteriores .item.active .title-wrapper {
+    background-color: #272727
+}
+
+.exposicoes-anteriores .item:hover .title-wrapper .title, .exposicoes-anteriores .item.active .title-wrapper .title {
+    color: #fff
+}
+
+.exposicoes-anteriores .item:hover .title-wrapper .date, .exposicoes-anteriores .item.active .title-wrapper .date {
+    color: #7ebac4
+}
+
+.exposicoes-anteriores .item:hover .image-exposicao, .exposicoes-anteriores .item.active .image-exposicao {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1
+}
+
+.exposicoes-anteriores .item:hover .nome-artista, .exposicoes-anteriores .item.active .nome-artista {
+    top: 7.4em
+}
+
+.exposicoes-anteriores .item.active .title-wrapper {
+    background-color: #7FBCC6
+}
+
+.exposicoes-anteriores .expo-futura {
+    color: #ececec;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    display: block;
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/bg_expo_futura.gif?1372856462') repeat 0 0;
+    line-height: 2em;
+    position: absolute;
+    right: 0;
+    bottom: 2em;
+    padding: 0 1.4em 0 .9em
+}
+
+.exposicoes-anteriores .nome-artista {
+    color: #ececec;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    display: block;
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/bg_expo_futura.gif?1372856462') repeat 0 0;
+    line-height: 1.2em;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    -webkit-transition: top 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+    -webkit-transition-delay: 0ms;
+    -moz-transition: top 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms;
+    -o-transition: top 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms;
+    transition: top 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms
+}
+
+.exposicoes-anteriores .nome-artista .nome-label {
+    display: block;
+    padding: .5em 1.4em .3em .9em
+}
+
+.exposicoes-anteriores .image-exposicao {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+    opacity: .5
+}
+
+.exposicoes-anteriores .title-wrapper {
+    position: relative;
+    z-index: 1;
+    background-color: #f5f4f3;
+    padding: 1.6em 2.2em 2em;
+    height: 10em
+}
+
+.exposicoes-anteriores .title-wrapper .title {
+    color: #666;
+    font-size: 2.4em;
+    text-transform: uppercase;
+    line-height: 1em;
+    padding-bottom: .2em
+}
+
+.exposicoes-anteriores .title-wrapper .date {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 2.4em;
+    color: #7fbcc6
+}
+
+.exposicao-loading, .artistas-loading-local {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/bg_loading.png?1372856462') repeat 0 0;
+    z-index: 102
+}
+
+.exposicao-loading.external, .artistas-loading-local.external {
+    position: fixed
+}
+
+.exposicao-loading .loading, .artistas-loading-local .loading {
+    position: absolute;
+    width: 100%;
+    top: 46%;
+    font-size: 2.5em;
+    color: #fff;
+    text-align: center
+}
+
+.exposicoes-lightbox-loading {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 41px;
+    height: 17px;
+    margin: -8px 0 0 -20px
+}
+
+.exposicoes-lightbox {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #EEEEF0;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    display: none
+}
+
+.exposicoes-lightbox .wrap-form-interest {
+    width: 100%;
+    height: 100%;
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/overlay_form.png?1390851528') repeat;
+    position: relative;
+    z-index: 20;
+    overflow: hidden;
+    display: none
+}
+
+.exposicoes-lightbox .wrap-form-interest .form-interest {
+    width: 625px;
+    padding: 30px 0 40px 0;
+    background: #161616;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    margin-left: -312.5px;
+    margin-top: -138.5px;
+    z-index: 30
+}
+
+.exposicoes-lightbox .wrap-form-interest .form-interest .form-title .title {
+    font-size: 18px;
+    color: #7fbcc6;
+    text-transform: uppercase;
+    text-align: center
+}
+
+.exposicoes-lightbox .wrap-form-interest .form-interest .form-fields {
+    padding-top: 24px;
+    margin-left: 70px
+}
+
+.exposicoes-lightbox .wrap-form-interest .form-interest .form-fields .form-row {
+    margin-bottom: 0
+}
+
+.exposicoes-lightbox .wrap-form-interest .form-interest label, .exposicoes-lightbox .wrap-form-interest .form-interest .label_nome, .exposicoes-lightbox .wrap-form-interest .form-interest .label_email, .exposicoes-lightbox .wrap-form-interest .form-interest .label_telefone {
+    color: #fff;
+    font-size: 18px;
+    width: 110px;
+    padding-right: 12px;
+    float: left;
+    text-align: right;
+    line-height: 37px;
+    text-transform: uppercase
+}
+
+.exposicoes-lightbox .wrap-form-interest .form-interest input[type="text"] {
+    width: 300px;
+    line-height: 37px;
+    height: 37px;
+    color: #a2bab0;
+    border-bottom: 1px solid #828282;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 18px;
+    font-weight: normal
+}
+
+.exposicoes-lightbox .wrap-form-interest .form-interest textarea {
+    width: 300px;
+    line-height: 37px;
+    color: #A2BAB0;
+    height: 37px;
+    border-bottom: 1px solid #828282;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 18px;
+    font-weight: normal
+}
+
+.exposicoes-lightbox .wrap-form-interest .form-interest label.field-error {
+    color: #ff4800
+}
+
+.exposicoes-lightbox .wrap-form-interest .form-interest .submit {
+    overflow: hidden;
+    position: relative;
+    width: 105px;
+    margin: 20px 0 0 219px
+}
+
+.exposicoes-lightbox .wrap-form-interest .form-interest .submit .loading {
+    width: 41px;
+    height: 17px;
+    position: absolute;
+    left: -100%;
+    top: 14px;
+    margin-left: -20px
+}
+
+.exposicoes-lightbox .wrap-form-interest .form-interest .submit .submit-text {
+    text-align: center;
+    color: #fff;
+    font-size: 36px
+}
+
+.exposicoes-lightbox .wrap-form-interest .form-interest .submit input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%
+}
+
+.exposicoes-lightbox .wrap-form-interest .form-interest .submit:hover .submit-text {
+    color: #79b3bc
+}
+
+.exposicoes-lightbox .wrap-form-interest .form-interest .submit.disable-submit .loading {
+    left: 50%
+}
+
+.exposicoes-lightbox .wrap-form-interest .form-interest .submit.disable-submit input {
+    display: none
+}
+
+.exposicoes-lightbox .wrap-form-interest .form-interest .submit.disable-submit .submit-text {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0
+}
+
+.exposicoes-lightbox .wrap-form-interest .form-interest .box-msg {
+    display: none
+}
+
+.exposicoes-lightbox .wrap-form-interest .form-interest .box-msg .msg-register {
+    font-size: 18px;
+    color: #FF4800;
+    text-align: center;
+    padding-top: 30px
+}
+
+.exposicoes-lightbox .wrap-form-interest .form-interest .success-message {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 100%;
+    top: 0;
+    background: #7fbcc6
+}
+
+.exposicoes-lightbox .wrap-form-interest .form-interest .success-message p {
+    color: #fff;
+    line-height: 1em;
+    text-transform: uppercase;
+    width: 305px;
+    float: left;
+    margin: 96px 0 0 157px
+}
+
+.exposicoes-lightbox .wrap-form-interest .form-interest .success-message p .size-1 {
+    font-size: 30px;
+    display: block;
+    line-height: 1em;
+    text-align: center
+}
+
+.exposicoes-lightbox .wrap-form-interest .form-interest .success-message p .size-2 {
+    font-size: 70px;
+    display: block;
+    line-height: 1em;
+    text-align: center
+}
+
+.exposicoes-lightbox .wrap-form-interest .box-aux {
+    width: 625px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -312.5px;
+    margin-top: -138.5px;
+    z-index: 30
+}
+
+.exposicoes-lightbox .wrap-form-interest .box-aux .close-form {
+    width: 64px;
+    height: 61px;
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/btn_close_form.jpg?1390851528') no-repeat;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -64px
+}
+
+.exposicoes-lightbox .wrap-form-interest .box-aux .close-form:hover {
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/btn_close_form_hover.jpg?1390851528') no-repeat
+}
+
+.exposicoes-lightbox .exposicoes-lightbox-scroll {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    overflow: auto
+}
+
+body.mobile .exposicoes-lightbox .exposicoes-lightbox-scroll {
+    -webkit-overflow-scrolling: touch
+}
+
+.exposicoes-lightbox .close-button {
+    display: block;
+    width: 6.1em;
+    height: 6.1em;
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/close_button.png?1372856462') no-repeat center center #2b2b2b;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2
+}
+
+.exposicoes-lightbox .close-button:hover {
+    background-color: #7FBCC6
+}
+
+.exposicoes-lightbox .list {
+    height: 45em;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -22em;
+    padding-left: 1em
+}
+
+.exposicoes-lightbox .list .video iframe {
+    width: 100%;
+    height: 100%
+}
+
+.exposicoes-lightbox .list .item {
+    height: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    height: 45em;
+    margin-right: 10px;
+    -webkit-transform: translate3d(0, 0, 0)
+}
+
+.exposicoes-lightbox .list .item .img-expo {
+    width: 100%;
+    height: 45em;
+    position: relative
+}
+
+.exposicoes-lightbox .list .item:hover .legend {
+    bottom: 0
+}
+
+.exposicoes-lightbox .list .legend {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -50%;
+    padding: 1.5em 2em 1.5em;
+    background: #fff;
+    -webkit-transition: bottom 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+    -webkit-transition-delay: 0ms;
+    -moz-transition: bottom 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms;
+    -o-transition: bottom 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms;
+    transition: bottom 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms
+}
+
+.exposicoes-lightbox .list .legend .title h5 {
+    font-size: 20px;
+    line-height: 1em;
+    color: #7fbcc6;
+    padding-bottom: .4em;
+    text-transform: uppercase
+}
+
+.exposicoes-lightbox .list .legend .title p {
+    color: #595959;
+    font-size: 12px;
+    line-height: 1.4em;
+    font-family: 'Droid Sans', sans-serif;
+    margin-bottom: 1.9em
+}
+
+.exposicoes-lightbox .list .legend .register-int {
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    color: #565656;
+    padding: 8px 15px;
+    background: #fff;
+    border: 1px solid #7fbcc6;
+    position: relative
+}
+
+.exposicoes-lightbox .list .legend .register-int:hover {
+    background: #7fbcc6
+}
+
+.exposicoes-lightbox .list .legend .indisponivel {
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    color: #565656;
+    padding: 8px 15px;
+    background: #fff;
+    border: 1px solid #7fbcc6;
+    position: relative;
+    width: 100px
+}
+
+.artista-detail {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    left: 0;
+    top: 100%;
+    z-index: 5;
+    font-size: 1.6em;
+    color: #fff;
+    overflow: auto;
+    overflow-x: hidden;
+    font-size: 10px;
+    background: #fff
+}
+
+body.mobile .artista-detail {
+    -webkit-overflow-scrolling: touch
+}
+
+.artistas-content {
+    margin-bottom: 12px;
+    background: #EDEDE9
+}
+
+.artistas-content .artistas-nav {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    background: #edede9
+}
+
+.artistas-content .title-list {
+    width: 350px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 2.4em;
+    color: #a4a4a4;
+    padding: .58em 0;
+    position: relative;
+    left: -18px
+}
+
+.artistas-content .title-list .left {
+    float: left
+}
+
+html[lang="en"] .artistas-content .title-list .left {
+    margin-left: 93px
+}
+
+.artistas-content .title-list .right {
+    float: right
+}
+
+.artistas-content .artistas-nav-clip {
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1
+}
+
+.artistas-content .artistas-nav-wrapper {
+    display: none;
+    padding: 3.7em 0 6em 0
+}
+
+.artistas-content .title-nav {
+    font-size: 3.6em;
+    color: #565656;
+    padding-left: 60px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0
+}
+
+.artistas-content .nav-cols {
+    padding-top: 40px;
+    padding-left: 60px
+}
+
+.artistas-content .nav-cols ul {
+    width: 250px;
+    float: left
+}
+
+.artistas-content .nav-cols li {
+    padding-bottom: 1.4em
+}
+
+.artistas-content .nav-cols a {
+    font-size: 1.8em;
+    color: #afafaf;
+    text-transform: uppercase;
+    background: url('http://static.zippergaleria.com.br/static/images/artistas/bg_nav_artistas.png?1372856462') no-repeat -1000px center;
+    padding-left: 13px;
+    font-family: 'Cuprum', sans-serif
+}
+
+.artistas-content .nav-cols a:hover {
+    color: #7fbcc6;
+    background-position: left center
+}
+
+.artistas-content .open-close-button {
+    position: absolute;
+    bottom: -37px;
+    left: 50%;
+    margin-left: -19px;
+    width: 38px;
+    height: 37px;
+    background: url('http://static.zippergaleria.com.br/static/images/artistas/open_close_button.png?1372856462') no-repeat left top
+}
+
+.artistas-content .open-close-button.active {
+    background-position: left bottom
+}
+
+.list-artistas {
+    width: 100%;
+    font-size: 10px
+}
+
+.item-artista {
+    width: 20%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    background-color: #EDEDE9
+}
+
+.item-artista .img-obra-artista {
+    width: 102%;
+    display: block;
+    position: relative;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+    opacity: .5;
+    top: 100%
+}
+
+.item-artista .info-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: -50%
+}
+
+.item-artista .info {
+    background: #fff;
+    text-transform: uppercase;
+    padding: 2em 2.5em
+}
+
+.item-artista .art {
+    color: #e54d64;
+    font-size: 2.8em;
+    padding-bottom: .1em
+}
+
+.item-artista .art-name {
+    color: #666;
+    font-size: 3.5em;
+    padding-bottom: .1em
+}
+
+.item-artista .more {
+    color: #7a6062;
+    font-size: 2.1em
+}
+
+.item-artista:hover .info-wrapper {
+    top: 0
+}
+
+.artista {
+    width: 100%;
+    overflow: hidden
+}
+
+.artista .banners-artista {
+    width: 100%;
+    overflow: hidden;
+    position: relative
+}
+
+.artista .banners-artista img {
+    position: absolute;
+    left: 50%;
+    top: 0
+}
+
+.artista-info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-transform: uppercase;
+    width: 98em;
+    height: auto
+}
+
+.artista-info .title {
+    position: relative;
+    padding: 2.6em 0 2.6em 2.7em
+}
+
+.artista-info .title-1 {
+    font-size: 3em;
+    line-height: 1em;
+    font-family: 'Cuprum', sans-serif
+}
+
+.artista-info .title-2 {
+    font-size: 6em;
+    line-height: 1em
+}
+
+.artista-info .date {
+    font-size: 2.4em;
+    line-height: 1em
+}
+
+.artista-info .title-3 {
+    font-size: 3.6em;
+    line-height: 1.5em;
+    padding-left: .75em
+}
+
+.artista-info img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%
+}
+
+.artista-info .link-perfil {
+    position: absolute;
+    right: .7em;
+    color: #565656;
+    bottom: 0;
+    z-index: 1;
+    font-size: 3.6em;
+    line-height: 1.5em;
+    top: 130px;
+    display: none
+}
+
+.artista-info .social-icons {
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.artista-info .social-icons .label-clip {
+    position: absolute;
+    left: 6px;
+    top: 9px;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    -webkit-transition: width 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+    -webkit-transition-delay: 0ms;
+    -moz-transition: width 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms;
+    -o-transition: width 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms;
+    transition: width 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms
+}
+
+.artista-info .social-icons .label {
+    font-size: 11px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 20px;
+    background: #8a8a89;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+    padding: 0 16px 0 46px;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.artista-info .social-icons ul {
+    position: relative
+}
+
+.artista-info .social-icons li {
+    margin-bottom: 5px;
+    position: relative
+}
+
+.artista-info .social-icons li:hover .label-clip {
+    width: 117px
+}
+
+.artista-info .social-icons .social-button {
+    width: 41px;
+    height: 41px
+}
+
+.artista-info .social-icons .social-button a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/social_icons.png?1372856462') no-repeat 0 0;
+    position: relative
+}
+
+.artista-info .social-icons .social-button.facebook a {
+    background-position: left top
+}
+
+.artista-info .social-icons .social-button.twitter a {
+    background-position: left bottom
+}
+
+.artista-info.theme-1 .title {
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/bg_title_theme_1.png?1372856462') repeat 0 0
+}
+
+.artista-info.theme-1 .title-1 {
+    color: #d0edde
+}
+
+.artista-info.theme-1 .title-2 {
+    color: #f5f7f6
+}
+
+.artista-info.theme-1 .title-3 {
+    color: #565656;
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/bg_title_3_theme_1.png?1372856462') repeat 0 0;
+    padding-right: 165px
+}
+
+.artista-info.theme-1 .date {
+    color: #d0edde
+}
+
+.artista-info.theme-2 .title {
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/bg_title_theme_2.png?1372856462') repeat 0 0
+}
+
+.artista-info.theme-2 .title-1 {
+    color: #dadcbe
+}
+
+.artista-info.theme-2 .title-2 {
+    color: #f5f7f6
+}
+
+.artista-info.theme-2 .title-3 {
+    color: #565656;
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/bg_title_3_theme_2.png?1372856462') repeat 0 0
+}
+
+.artista-info.theme-2 .date {
+    color: #dadcbe
+}
+
+.artista-sobre {
+    width: 100%;
+    height: 805px;
+    position: relative
+}
+
+.artista-sobre .wrapper {
+    position: relative
+}
+
+.artista-sobre .bg-image-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+
+.artista-sobre .bg-image {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -960px
+}
+
+.artista-sobre .tabs-nav {
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.artista-sobre .tabs-nav li {
+    float: left;
+    text-transform: uppercase;
+    margin-left: 1px
+}
+
+.artista-sobre .tabs-nav li a {
+    font-size: 3.6em;
+    color: #fff;
+    line-height: 1.6em;
+    background: #7fbcc6;
+    text-align: center;
+    padding: 0 25px;
+    display: block
+}
+
+.artista-sobre .tabs-nav li:hover a, .artista-sobre .tabs-nav li.active a {
+    color: #7fbcc6;
+    background: #f5f7f6
+}
+
+.artista-sobre .tabs-info {
+    width: 63em;
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.artista-sobre .tabs-info .tab {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #f5f7f6;
+    width: 100%
+}
+
+.artista-sobre .tabs-info .scroll {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch
+}
+
+.artista-sobre .tabs-info .tab-sobre {
+    display: none;
+    padding: 45px 0
+}
+
+.artista-sobre .tabs-info .tab-sobre .text {
+    padding: 0 45px
+}
+
+.artista-sobre .tabs-info .tab-sobre .text p {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    padding-bottom: 20px;
+    color: #595959;
+    text-align: justify
+}
+
+.artista-sobre .tabs-info .tab-sobre .text-nav {
+    display: inline-block
+}
+
+.artista-sobre .tabs-info .tab-sobre .text-nav .text-nav-item {
+    float: left;
+    width: 18px;
+    hidden: 18px
+}
+
+.artista-sobre .tabs-info .tab-expos {
+    display: none;
+    padding: 45px 0
+}
+
+.artista-sobre .tabs-info .tab-expos .tab-content {
+    padding: 0 20px
+}
+
+.artista-sobre .tabs-info .tab-expos .title {
+    color: #686868;
+    font-size: 3.6em;
+    background: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: .7em 0;
+    margin-bottom: 5px
+}
+
+.artista-sobre .tabs-info .tab-expos .nav-list-artistas .nav-item-artista {
+    position: relative;
+    background: #fff;
+    margin-bottom: 5px
+}
+
+.artista-sobre .tabs-info .tab-expos .nav-list-artistas .nav-item-artista img {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0
+}
+
+.artista-sobre .tabs-info .tab-expos .nav-list-artistas .nav-item-artista .info {
+    float: left;
+    text-transform: uppercase;
+    padding: 0 3em 0 13em;
+    min-height: 10em
+}
+
+.artista-sobre .tabs-info .tab-expos .nav-list-artistas .nav-item-artista .info h4 {
+    font-size: 2.5em;
+    color: #7fbcc6;
+    padding-top: .5em
+}
+
+.artista-sobre .tabs-info .tab-expos .nav-list-artistas .nav-item-artista .info p {
+    color: #6a6a6a;
+    font-size: 1.6em;
+    padding-bottom: .8em
+}
+
+.artista-sobre .tabs-info .tab-downloads {
+    display: none
+}
+
+.artista-sobre .tabs-info .tab-downloads .tab-content {
+    padding: 25px 20px
+}
+
+.artista-sobre .tabs-info .tab-downloads .title {
+    color: #686868;
+    font-size: 3.6em;
+    background: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: .7em 0;
+    margin-bottom: 5px
+}
+
+.artista-sobre .tabs-info .tab-downloads .nav-list-downloads .nav-item-downloads {
+    position: relative;
+    background: #fff;
+    margin-bottom: 5px
+}
+
+.artista-sobre .tabs-info .tab-downloads .nav-list-downloads .nav-item-downloads img {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0
+}
+
+.artista-sobre .tabs-info .tab-downloads .nav-list-downloads .nav-item-downloads .info {
+    float: left;
+    text-transform: uppercase;
+    padding: 2em 10em 0;
+    min-height: 6em
+}
+
+.artista-sobre .tabs-info .tab-downloads .nav-list-downloads .nav-item-downloads .info h4 {
+    font-size: 2.5em;
+    color: #7fbcc6
+}
+
+.artista-sobre .tabs-info .tab-downloads .nav-list-downloads .nav-item-downloads .info p {
+    color: #6a6a6a;
+    font-size: 1.6em
+}
+
+.artista-sobre .tabs-info .tab-downloads .nav-list-downloads .nav-item-downloads .info a {
+    color: #6a6a6a
+}
+
+.nav-buttons-artista {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 101;
+    display: none
+}
+
+.nav-buttons-artista li {
+    position: relative;
+    margin-bottom: 1px;
+    height: 6.1em
+}
+
+.nav-buttons-artista li button, .nav-buttons-artista li a {
+    display: block;
+    width: 6.1em;
+    height: 100%;
+    background-color: #2b2b2b;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #E2E2E2;
+    border-right: 0
+}
+
+.nav-buttons-artista li button:hover, .nav-buttons-artista li a:hover {
+    background-color: #2b2b2b
+}
+
+.nav-buttons-artista li:hover .label {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1
+}
+
+.nav-buttons-artista li .label {
+    position: absolute;
+    z-index: 2;
+    background: #fff;
+    color: #565656;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    text-align: center;
+    top: 0;
+    right: 3.3em;
+    line-height: 3.3em;
+    width: 8.5em;
+    height: 100%;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transition: opacity 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+    -webkit-transition-delay: 0ms;
+    -moz-transition: opacity 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms;
+    -o-transition: opacity 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms;
+    transition: opacity 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms;
+    border: 1px solid #E2E2E2;
+    border-right: 0
+}
+
+html[lang="en"] .nav-buttons-artista li .label {
+    width: 10.5em
+}
+
+.nav-buttons-artista li.close-button-artista a {
+    background-image: url('http://static.zippergaleria.com.br/static/images/exposicoes/close_button.png?1372856462');
+    border-color: #2B2B2B
+}
+
+.nav-buttons-artista li.close-button-artista a:hover {
+    background-color: #7FBCC6;
+    border-color: #7FBCC6
+}
+
+.nav-buttons-artista li.prev-button a {
+    background-color: #fff;
+    background-image: url('http://static.zippergaleria.com.br/static/images/exposicoes/nav_buttons_prev.png?1372856462');
+    background-position: center center;
+    background-repeat: no-repeat
+}
+
+.nav-buttons-artista li.next-button a {
+    background-color: #fff;
+    background-image: url('http://static.zippergaleria.com.br/static/images/exposicoes/nav_buttons_next.png?1372856462');
+    background-position: center center;
+    background-repeat: no-repeat
+}
+
+.artistas-loading-local {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/bg_loading.png?1372856462') repeat 0 0;
+    z-index: 102
+}
+
+.artistas-loading-local.external {
+    position: fixed
+}
+
+.artistas-loading-local .loading {
+    position: absolute;
+    width: 100%;
+    top: 46%;
+    font-size: 2.5em;
+    color: #fff;
+    text-align: center
+}
+
+.outros-artistas {
+    font-size: 10px;
+    z-index: 102;
+    position: fixed;
+    width: 100%;
+    height: 38.7em;
+    visibility: hidden;
+    left: 0;
+    top: -40em;
+    background: #fff;
+    border-bottom: 4px solid #fff;
+    margin-top: -4px
+}
+
+.outros-artistas button {
+    font-size: inherit
+}
+
+.outros-artistas .open-close-button {
+    color: #a4a4a4;
+    font-size: 2.4em;
+    background: #fff;
+    width: 110px;
+    line-height: 1em;
+    padding: 1.0em 0 .3em;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -55px;
+    bottom: 0;
+    text-transform: uppercase;
+    border: 1px solid #E2E2E2;
+    border-top: 0
+}
+
+html[lang="en"] .outros-artistas .open-close-button {
+    width: 130px;
+    margin-left: -65px
+}
+
+.outros-artistas .open-close-button .arrow {
+    display: block;
+    width: 16px;
+    height: 11px;
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/arrow_exposicoes.png?1372856462') no-repeat right top;
+    position: absolute;
+    left: 50%;
+    top: 6px;
+    margin-left: -8px
+}
+
+.outros-artistas .open-close-button.active .arrow {
+    background-position: left top
+}
+
+.outros-artistas .nav-button {
+    width: 15em;
+    height: 38.7em;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 2
+}
+
+.outros-artistas .nav-button.prev {
+    left: 0;
+    background-image: url('http://static.zippergaleria.com.br/static/images/exposicoes/bg_nav_left.png?1372856462')
+}
+
+.outros-artistas .nav-button.next {
+    right: 0;
+    background-image: url('http://static.zippergaleria.com.br/static/images/exposicoes/bg_nav_right.png?1372856462')
+}
+
+.outros-artistas .slide-wrapper {
+    width: 100%;
+    height: 38.7em;
+    overflow: hidden;
+    position: relative
+}
+
+.outros-artistas .list-clip {
+    position: absolute;
+    top: 0;
+    left: 15em;
+    width: 100%;
+    height: 38.7em;
+    overflow: hidden
+}
+
+body.mobile .outros-artistas .list-clip {
+    overflow-y: hidden;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch
+}
+
+.outros-artistas .list {
+    position: relative;
+    width: 9000px
+}
+
+.outros-artistas .item {
+    width: 22em;
+    height: 38.7em;
+    background: #ccc;
+    margin-right: 1px;
+    float: left;
+    overflow: hidden;
+    position: relative
+}
+
+.outros-artistas .item:hover .title-wrapper, .outros-artistas .item.active .title-wrapper {
+    background-color: #272727
+}
+
+.outros-artistas .item:hover .title-wrapper .title, .outros-artistas .item.active .title-wrapper .title {
+    color: #fff
+}
+
+.outros-artistas .item:hover .title-wrapper .date, .outros-artistas .item.active .title-wrapper .date {
+    color: #7ebac4
+}
+
+.outros-artistas .item:hover .image-exposicao, .outros-artistas .item.active .image-exposicao {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1
+}
+
+.outros-artistas .item.active .title-wrapper {
+    background-color: #7FBCC6
+}
+
+.outros-artistas .expo-futura {
+    color: #ececec;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    display: block;
+    background: url('http://static.zippergaleria.com.br/static/images/exposicoes/bg_expo_futura.gif?1372856462') repeat 0 0;
+    line-height: 2em;
+    position: absolute;
+    right: 0;
+    bottom: 2em;
+    padding: 0 1.4em 0 .9em
+}
+
+.outros-artistas .image-exposicao {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+    opacity: .5
+}
+
+.outros-artistas .title-wrapper {
+    position: relative;
+    z-index: 1;
+    background-color: #f5f4f3;
+    padding: 1.6em 2.2em 2em;
+    height: 6.6em
+}
+
+.outros-artistas .title-wrapper .title {
+    color: #666;
+    font-size: 2.4em;
+    text-transform: uppercase;
+    line-height: 1em;
+    padding-bottom: .2em
+}
+
+.outros-artistas .title-wrapper .date {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 2.4em;
+    color: #7fbcc6
+}
+
+.scroll-nav {
+    position: fixed;
+    display: none;
+    z-index: 2;
+    top: 70px;
+    left: 15px;
+    width: 56px;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 18px;
+    text-align: center
+}
+
+.scroll-nav p {
+    padding-bottom: 7px;
+    color: #fff;
+    text-shadow: 0 0 3px #333
+}
+
+.scroll-nav .scroll-nav-center {
+    width: 26px;
+    margin: 0 auto;
+    background: url('http://static.zippergaleria.com.br/static/images/global/scroll_nav_setas.png?1372856462') no-repeat center bottom #f5f7f6;
+    padding: 10px 0 40px 0;
+    border-radius: 10px;
+    border: 1px solid #e2e2e2
+}
+
+.scroll-nav .scroll-nav-center li {
+    width: 15px;
+    height: 15px;
+    margin: 0 auto 9px auto;
+    background: #a8a3a3;
+    border-radius: 100%;
+    cursor: pointer
+}
+
+.scroll-nav .scroll-nav-center li:hover, .scroll-nav .scroll-nav-center li.active {
+    background-color: #7fbcc6
+}
+
+.galeria-content {
+    width: 100%;
+    overflow: hidden;
+    height: 600px;
+    position: relative
+}
+
+.galeria-content .list {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%
+}
+
+.galeria-content .list .item {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    z-index: 1
+}
+
+.galeria-content .list .item .image {
+    position: absolute;
+    left: 50%;
+    top: 0
+}
+
+.galeria-content .button {
+    width: 60px;
+    height: 76px;
+    background: url('http://static.zippergaleria.com.br/static/images/galeria/nav_buttons.png?1372856462') no-repeat 0 0;
+    position: absolute;
+    top: 50%;
+    margin-top: -38px;
+    z-index: 4;
+    -webkit-transition: all 600ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+    -webkit-transition-delay: 0ms;
+    -moz-transition: all 600ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms;
+    -o-transition: all 600ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms;
+    transition: all 600ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms
+}
+
+.galeria-content .button.prev {
+    background-position: left top;
+    left: 20px
+}
+
+.galeria-content .button.prev.disabled {
+    left: -60px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0
+}
+
+.galeria-content .button.next {
+    background-position: right top;
+    right: 20px
+}
+
+.galeria-content .button.next.disabled {
+    right: -60px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0
+}
+
+.galeria-content .text-cols {
+    position: relative;
+    z-index: 2;
+    width: 870px;
+    height: 100%;
+    margin: 0 auto
+}
+
+.galeria-content .text-cols .col {
+    width: 225px;
+    padding: 20px;
+    background: url('http://static.zippergaleria.com.br/static/images/galeria/bg_col.png?1372856462') repeat 0 0
+}
+
+.galeria-content .text-cols .col.col-a {
+    position: absolute;
+    left: 0;
+    top: 40%
+}
+
+.galeria-content .text-cols .col.col-b {
+    position: absolute;
+    left: 50%;
+    margin-left: -132px;
+    top: 33%
+}
+
+.galeria-content .text-cols .col.col-c {
+    position: absolute;
+    right: 0;
+    top: 40%
+}
+
+.galeria-content .text-cols .col h3 {
+    font-size: 3.6em;
+    color: #87c0c9;
+    text-transform: uppercase;
+    padding-bottom: .5em
+}
+
+.galeria-content .text-cols .col p {
+    color: #8d8d8d;
+    font-size: 12px;
+    line-height: 1.7em;
+    font-family: 'Droid Sans', sans-serif;
+    text-align: justify
+}
+
+.galeria-content .loading {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    background: url('http://static.zippergaleria.com.br/static/images/galeria/bg_loading.png?1372856462') repeat 0 0
+}
+
+.galeria-content .loading img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -8px 0 0 -20px
+}
+
+.icon-sprite, .icon-facebook, .icon-foursquare, .icon-instagran, .icon-issu, .icon-pinterest, .icon-twitter, html.ie .social-content .social-links .pinterest .icon, html.ie .social-content .social-links .instagran .icon, html.ie .social-content .social-links .issuu .icon, html.ie .social-content .social-links .facebook .icon, html.ie .social-content .social-links .foursquare .icon, html.ie .social-content .social-links .twitter .icon {
+    background: url('http://static.zippergaleria.com.br/static/images/social/icon-s1feb909432.png?29402ca1a511') no-repeat
+}
+
+.icon-facebook {
+    background-position: 0 -340px
+}
+
+.icon-foursquare {
+    background-position: 0 -68px
+}
+
+.icon-instagran {
+    background-position: 0 -136px
+}
+
+.icon-issu {
+    background-position: 0 -204px
+}
+
+.icon-pinterest {
+    background-position: 0 0
+}
+
+.icon-twitter {
+    background-position: 0 -272px
+}
+
+.social-content {
+    position: relative;
+    font-size: 10px;
+    background: #f6f6f4;
+    padding: 0;
+    width: 100%;
+    overflow: hidden
+}
+
+.social-content .title {
+    font-size: 6.5em;
+    color: #b3b597;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 1em;
+    position: relative;
+    top: 10%
+}
+
+body.social-resize .social-content .title {
+    top: 4%
+}
+
+.social-content .social-links {
+    width: 512px;
+    height: 268px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -134px 0 0 -256px
+}
+
+body.social-resize .social-content .social-links {
+    margin-top: -175px
+}
+
+.social-content .social-links .bg-social {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 512px;
+    height: 268px;
+    background: url('http://static.zippergaleria.com.br/static/images/social/bg_zipper.png?1372856462') no-repeat 0 0
+}
+
+.social-content .social-links ul {
+    width: 512px;
+    height: 268px;
+    position: relative
+}
+
+.social-content .social-links li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer
+}
+
+.social-content .social-links li .icon {
+    position: relative;
+    width: 68px;
+    height: 68px;
+    background-color: #7fbcc6;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-transition: background-color 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -webkit-transition-delay: 0ms;
+    -moz-transition: background-color 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) 0ms;
+    -o-transition: background-color 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) 0ms;
+    transition: background-color 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) 0ms;
+    -webkit-border-radius: 34px;
+    -moz-border-radius: 34px;
+    -ms-border-radius: 34px;
+    -o-border-radius: 34px;
+    border-radius: 34px
+}
+
+html.ie .social-content .social-links li .icon {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0
+}
+
+.social-content .social-links li .name {
+    color: #6e6e6e;
+    font-size: 1.8em;
+    font-family: 'Cuprum', sans-serif;
+    position: absolute;
+    right: 78px;
+    top: 25px
+}
+
+.social-content .social-links li:hover .icon {
+    background-color: #6b9ba3
+}
+
+.social-content .social-links li a {
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    top: 0
+}
+
+.social-content .social-links li a.left {
+    left: 0
+}
+
+.social-content .social-links li a.right {
+    right: 0
+}
+
+.social-content .social-links .pinterest {
+    left: -32px;
+    top: -32px
+}
+
+.social-content .social-links .pinterest .icon {
+    background-image: url('http://static.zippergaleria.com.br/static/images/social/icon_alpha/pinterest.png?1372856462')
+}
+
+html.ie .social-content .social-links .pinterest .icon {
+    background-position: 0 0;
+    width: 68px;
+    height: 68px
+}
+
+.social-content .social-links .instagran {
+    left: 70px;
+    top: 100px
+}
+
+.social-content .social-links .instagran .icon {
+    background-image: url('http://static.zippergaleria.com.br/static/images/social/icon_alpha/instagran.png?1372856462')
+}
+
+html.ie .social-content .social-links .instagran .icon {
+    background-position: 0 -136px;
+    width: 68px;
+    height: 68px
+}
+
+.social-content .social-links .issuu {
+    left: -36px;
+    top: 230px
+}
+
+.social-content .social-links .issuu .icon {
+    background-image: url('http://static.zippergaleria.com.br/static/images/social/icon_alpha/issuu.png?1372856462')
+}
+
+html.ie .social-content .social-links .issuu .icon {
+    background-position: 0 0;
+    width: 68px;
+    height: 68px
+}
+
+.social-content .social-links .facebook {
+    left: 480px;
+    top: -33px
+}
+
+.social-content .social-links .facebook .icon {
+    background-image: url('http://static.zippergaleria.com.br/static/images/social/icon_alpha/facebook.png?1372856462')
+}
+
+.social-content .social-links .facebook .name {
+    left: 78px
+}
+
+html.ie .social-content .social-links .facebook .icon {
+    background-position: 0 -340px;
+    width: 68px;
+    height: 68px
+}
+
+.social-content .social-links .foursquare {
+    left: 373px;
+    top: 96px
+}
+
+.social-content .social-links .foursquare .icon {
+    background-image: url('http://static.zippergaleria.com.br/static/images/social/icon_alpha/foursquare.png?1372856462')
+}
+
+.social-content .social-links .foursquare .name {
+    left: 78px
+}
+
+html.ie .social-content .social-links .foursquare .icon {
+    background-position: 0 -68px;
+    width: 68px;
+    height: 68px
+}
+
+.social-content .social-links .twitter {
+    left: 480px;
+    top: 230px
+}
+
+.social-content .social-links .twitter .icon {
+    background-image: url('http://static.zippergaleria.com.br/static/images/social/icon_alpha/twitter.png?1372856462')
+}
+
+.social-content .social-links .twitter .name {
+    left: 78px
+}
+
+html.ie .social-content .social-links .twitter .icon {
+    background-position: 0 -272px;
+    width: 68px;
+    height: 68px
+}
+
+.social-content .loading {
+    position: absolute;
+    width: 41px;
+    height: 17px;
+    left: 50%;
+    bottom: 6px;
+    margin-left: -24px;
+    display: none
+}
+
+.social-content .message {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 2.1em;
+    color: #818181;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    width: 100%;
+    display: none;
+    text-transform: uppercase
+}
+
+.social-content .message.error-message {
+    color: #ff3c00
+}
+
+.social-content .form-newsletter {
+    padding-top: 7.7em;
+    width: 490px;
+    position: absolute;
+    margin-left: -245px;
+    left: 50%;
+    bottom: 10%
+}
+
+body.lt-1024 .social-content .form-newsletter {
+    bottom: 3% !important
+}
+
+.social-content .form-newsletter .title-clip {
+    position: relative;
+    overflow: hidden
+}
+
+.social-content .form-newsletter .title-wrapper {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 100px
+}
+
+.social-content .form-newsletter .title-wrapper .title-form {
+    font-size: 6.3em;
+    color: #7fbcc6;
+    padding-bottom: .15em
+}
+
+.social-content .form-newsletter .title-wrapper .intro {
+    color: #818181;
+    font-size: 2.1em;
+    font-family: 'Cuprum', sans-serif;
+    padding-bottom: .5em
+}
+
+.social-content .form-newsletter .form-row {
+    margin: 0 auto;
+    width: 390px
+}
+
+.social-content .form-newsletter input[type="text"] {
+    float: left;
+    width: 310px;
+    height: 28px;
+    line-height: 32px;
+    border: 1px solid #cacaca;
+    color: #7fbcc6;
+    font-size: 1.8em;
+    padding: 0 15px;
+    font-family: 'Cuprum', sans-serif
+}
+
+.social-content .form-newsletter input[type="text"]::-webkit-input-placeholder {
+    color: #7fbcc6
+}
+
+body.mobile .social-content .form-newsletter input[type="text"] {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-appearance: caret;
+    -moz-appearance: caret
+}
+
+.social-content .form-newsletter input[type="submit"] {
+    float: left;
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #cacaca;
+    border-left: 0;
+    color: #b3b597;
+    font-size: 1.8em;
+    font-family: 'Cuprum', sans-serif
+}
+
+.contato-content {
+    width: 100%;
+    overflow: hidden;
+    background: url('http://static.zippergaleria.com.br/static/images/contato/bg_contato.jpg?1372856462') no-repeat center top #151515
+}
+
+.contato-content .wrapper {
+    position: relative;
+    max-height: 951px
+}
+
+.contato-content .cols {
+    width: 793px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    margin-left: -396px
+}
+
+body.contato-rezize-1 .contato-content .cols {
+    top: 3%
+}
+
+.contato-content .cols .col {
+    float: left;
+    text-transform: uppercase;
+    margin-right: 55px
+}
+
+.contato-content .cols .col.last {
+    margin-right: 0
+}
+
+.contato-content .cols .title {
+    font-size: 4.3em;
+    padding-bottom: .4em;
+    color: #fff
+}
+
+html[lang="en"] .contato-content .cols .title {
+    font-size: 4em
+}
+
+.contato-content .cols .text {
+    color: #a2bab0;
+    font-size: 2em;
+    font-family: 'Cuprum', sans-serif
+}
+
+.contato-content .como-chegar {
+    position: absolute;
+    left: 78px;
+    bottom: 264px;
+    width: 230px;
+    text-transform: uppercase;
+    font-size: 3em
+}
+
+.contato-content .como-chegar a {
+    color: #fff;
+    width: 100%;
+    padding-top: 100px;
+    position: relative;
+    display: block;
+    -webkit-transition: color 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+    -webkit-transition-delay: 0ms;
+    -moz-transition: color 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms;
+    -o-transition: color 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms;
+    transition: color 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms
+}
+
+.contato-content .como-chegar .map {
+    display: block;
+    font-size: .6em;
+    color: #a2bab0;
+    -webkit-transition: color 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+    -webkit-transition-delay: 0ms;
+    -moz-transition: color 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms;
+    -o-transition: color 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms;
+    transition: color 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000) 0ms
+}
+
+.contato-content .como-chegar .baloes {
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.contato-content .como-chegar .balao {
+    display: block;
+    position: absolute;
+    top: 0
+}
+
+.contato-content .como-chegar .balao.balao-1 {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-image: url('http://static.zippergaleria.com.br/static/images/contato/balao_01.png?1372856462');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 144px;
+    height: 144px;
+    top: 0
+}
+
+.contato-content .como-chegar .balao.balao-2 {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-image: url('http://static.zippergaleria.com.br/static/images/contato/balao_02.png?1372856462');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 144px;
+    height: 144px;
+    top: 0;
+    left: -4px
+}
+
+.contato-content .como-chegar .balao.balao-3 {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-image: url('http://static.zippergaleria.com.br/static/images/contato/balao_03.png?1372856462');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 144px;
+    height: 144px;
+    top: 0;
+    left: -3px
+}
+
+.contato-content .como-chegar:hover a {
+    color: #a2bab0
+}
+
+.contato-content .como-chegar:hover a .map {
+    color: #fff
+}
+
+.contato-content .form-contato {
+    position: absolute;
+    left: 333px;
+    bottom: 10%;
+    background: #161616;
+    width: 1150px
+}
+
+body.contato-rezize-2 .contato-content .form-contato {
+    bottom: 0
+}
+
+.contato-content .form-contato .email-zipper {
+    font-size: 1.8em;
+    color: #a2bab0;
+    font-family: 'Cuprum', sans-serif;
+    padding-left: 120px;
+    padding-top: 26px
+}
+
+.contato-content .form-contato .form-title {
+    color: #fff;
+    font-size: 3em;
+    padding-left: 120px;
+    text-transform: uppercase
+}
+
+.contato-content .form-contato .form-title .title {
+    color: #fff;
+    padding-bottom: .2em
+}
+
+.contato-content .form-contato .form-title .intro {
+    color: #a2bab0;
+    font-size: .6em
+}
+
+.contato-content .form-contato .form-title .intro.error-message {
+    display: none;
+    color: #ff4800
+}
+
+.contato-content .form-contato .form-fields {
+    padding-top: 25px;
+    padding-bottom: 15px
+}
+
+.contato-content .form-contato .form-row {
+    margin-bottom: 0
+}
+
+.contato-content .form-contato label {
+    color: #fff;
+    font-size: 1.8em;
+    width: 110px;
+    padding-right: 12px;
+    float: left;
+    text-align: right;
+    line-height: 37px
+}
+
+.contato-content .form-contato input[type="text"] {
+    width: 300px;
+    line-height: 37px;
+    height: 37px;
+    color: #a2bab0;
+    border-bottom: 1px solid #828282;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 1.8em;
+    font-weight: normal
+}
+
+.contato-content .form-contato textarea {
+    width: 300px;
+    line-height: 22px;
+    color: #fff;
+    height: 85px;
+    border-bottom: 1px solid #828282;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 1.8em;
+    font-weight: normal
+}
+
+.contato-content .form-contato select option {
+    font-size: 1.4em;
+    font-family: 'Cuprum', sans-serif
+}
+
+.contato-content .form-contato label.field-error {
+    color: #ff4800
+}
+
+.contato-content .form-contato .submit {
+    overflow: hidden;
+    position: relative;
+    width: 105px;
+    margin: 15px 0 0 218px
+}
+
+.contato-content .form-contato .submit .loading {
+    width: 41px;
+    height: 17px;
+    position: absolute;
+    left: -100%;
+    top: 14px;
+    margin-left: -20px
+}
+
+.contato-content .form-contato .submit .submit-text {
+    text-align: center;
+    color: #fff;
+    font-size: 3.6em
+}
+
+.contato-content .form-contato .submit input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%
+}
+
+.contato-content .form-contato .submit:hover .submit-text {
+    color: #A2BAB0
+}
+
+.contato-content .form-contato .submit.disable-submit .loading {
+    left: 50%
+}
+
+.contato-content .form-contato .submit.disable-submit input {
+    display: none
+}
+
+.contato-content .form-contato .submit.disable-submit .submit-text {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0
+}
+
+.contato-content .form-contato .success-message {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 100%;
+    top: 0;
+    background: #7fbcc6
+}
+
+.contato-content .form-contato .success-message p {
+    color: #fff;
+    line-height: 1em;
+    text-transform: uppercase;
+    width: 305px;
+    float: left;
+    margin: 170px 0 0 200px
+}
+
+.contato-content .form-contato .success-message p .size-1 {
+    font-size: 30px;
+    display: block;
+    line-height: 1em;
+    text-align: center
+}
+
+.contato-content .form-contato .success-message p .size-2 {
+    font-size: 70px;
+    display: block;
+    line-height: 1em;
+    text-align: center
+}
+
+.footer-content {
+    font-size: 1.2em;
+    color: #919191;
+    background: #fff;
+    padding: 30px 0
+}
+
+.footer-content a {
+    color: #919191
+}
+
+.footer-content a:hover {
+    color: #A2BAB0
+}
+
+.footer-content .copy {
+    float: left;
+    margin-left: 45px;
+    margin-right: 28px
+}
+
+.footer-content .art-copy {
+    float: left
+}
+
+.footer-content .pub {
+    float: right;
+    margin-right: 60px
+}
+
+body .exposicoes-lightbox .jspPane {
+    height: 100%
+}
+
+body .exposicoes-lightbox .jspHorizontalBar {
+    height: 15px
+}
+
+body .jspVerticalBar {
+    width: 14px;
+    background: none
+}
+
+body .jspTrack {
+    background: #e2e4e3
+}
+
+body .jspDrag {
+    background: #bcbebd
+}
+
+body .select-skin {
+    float: left;
+    width: 300px;
+    border-bottom: 1px solid #828282
+}
+
+body .select-skin-mask {
+    background: url('http://static.zippergaleria.com.br/static/images/contato/bg_select.gif?1372856462') no-repeat right center #828282
+}
+
+body .select-skin-text-clip {
+    background: #161616;
+    margin-right: 26px
+}
+
+body .select-skin-text {
+    color: #a2bab0;
+    font-size: 18px;
+    padding: 8px 0
+}
+
+.jspContainer {
+    overflow: hidden;
+    position: relative
+}
+
+.jspPane {
+    position: absolute
+}
+
+.jspVerticalBar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 16px;
+    height: 100%;
+    background: red
+}
+
+.jspHorizontalBar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 16px;
+    background: red
+}
+
+.jspVerticalBar *, .jspHorizontalBar * {
+    margin: 0;
+    padding: 0
+}
+
+.jspCap {
+    display: none
+}
+
+.jspHorizontalBar .jspCap {
+    float: left
+}
+
+.jspTrack {
+    background: #dde;
+    position: relative
+}
+
+.jspDrag {
+    background: #bbd;
+    position: relative;
+    top: 0;
+    left: 0;
+    cursor: pointer
+}
+
+.jspHorizontalBar .jspTrack, .jspHorizontalBar .jspDrag {
+    float: left;
+    height: 100%
+}
+
+.jspArrow {
+    background: #50506d;
+    text-indent: -20000px;
+    display: block;
+    cursor: pointer
+}
+
+.jspArrow.jspDisabled {
+    cursor: default;
+    background: #80808d
+}
+
+.jspVerticalBar .jspArrow {
+    height: 16px
+}
+
+.jspHorizontalBar .jspArrow {
+    width: 16px;
+    float: left;
+    height: 100%
+}
+
+.jspVerticalBar .jspArrow:focus {
+    outline: none
+}
+
+.jspCorner {
+    background: #eeeef4;
+    float: left;
+    height: 100%
+}
+
+* html .jspCorner {
+    margin: 0 -3px 0 0
+}
+
+.select-skin {
+    width: 200px;
+    position: relative
+}
+
+.select-skin select {
+    width: 100%;
+    height: 100%;
+    float: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-appearance: menulist-button
+}
+
+.select-skin-mask {
+    width: 100%;
+    background: #333
+}
+
+.select-skin-text {
+    width: 9999px;
+    padding: 5px 10px;
+    line-height: 1em;
+    font-size: 1em
+}
+
+.select-skin-text-clip {
+    margin-right: 35px;
+    overflow: hidden;
+    background: #999
+}

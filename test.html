@@ -1,0 +1,94 @@
+<style>
+
+.hexagon {
+	width: 60px;
+	height: 104px;
+	background: #616161;
+	position: relative;
+	top: 100px;
+	left: 100px;
+	cursor: pointer;
+}
+.hexagon:before {
+	content: "";
+	position: absolute;
+	right: -30px;
+	width: 0;
+	height: 0;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+	border-left: 30px solid #616161;
+}
+.hexagon:after {
+	content: "";
+	position: absolute;
+	left: -30px;
+	width: 0;
+	height: 0;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+	border-right: 30px solid #616161;
+	z-index: 8;
+}
+.hexagon_sub {
+	width: 54px;
+	height: 96px;
+	background: #ebebeb;
+	position: absolute;
+	top: 4px;
+	left: 3px;
+}
+.hexagon_sub:before {
+	content: "";
+	position: absolute;
+	right: -28px;
+	width: 0;
+	height: 0;
+	border-top: 48px solid transparent;
+	border-bottom: 48px solid transparent;
+	border-left: 28px solid #ebebeb;
+}
+.hexagon_sub:after {
+	content: "";
+	position: absolute;
+	left: -28px;
+	width: 0;
+	height: 0;
+	z-index: 9;
+	border-top: 48px solid transparent;
+	border-bottom: 48px solid transparent;
+	border-right: 28px solid #ebebeb;
+}
+
+.hexagon:hover .hexagon_sub:after {
+	border-right: 28px solid #296347;
+}
+.hexagon:hover .hexagon_sub:before {
+	border-left: 28px solid #296347;
+}
+.hexagon:hover .hexagon_sub{
+	background: #296347;
+	color: #fff;
+}
+.hexagon_content {
+	position: absolute;
+	top: 10px;
+	left: -20px;
+	width: 95px;
+	z-index: 10;
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.hexagon_content small{
+	font-size: 18px;
+}
+</style>
+<div class="hexagon">
+	<div class="hexagon_sub">
+		<div class="hexagon_content">
+		1000 <small>ty dong</small>
+		</div>
+	</div>
+</div>
